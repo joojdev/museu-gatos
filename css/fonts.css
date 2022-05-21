@@ -2,3 +2,8 @@
   font-family: 'Roboto Slab';
   src: url('../fonts/Roboto_Slab.ttf');
 }
+
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../fonts/Indie_Flower.ttf');
+}

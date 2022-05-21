@@ -2,13 +2,16 @@ const catListElement = document.querySelector('#catList')
 
 const catList = [
   {
-    name: 'Himalaia e Persia'
+    name: 'Himalaia e Persa',
+    url: './cats/himalaia-e-persa.html'
   },
   {
-    name: 'Siamês'
+    name: 'Siamês',
+    url: './cats/siames.html'
   },
   {
-    name: 'Maine Coon'
+    name: 'Maine Coon',
+    url: './cats/maine-coon.html'
   },
   {
     name: 'Angorá'
