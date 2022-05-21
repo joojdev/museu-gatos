@@ -14,10 +14,12 @@ const catList = [
     url: './cats/maine-coon.html'
   },
   {
-    name: 'Angorá'
+    name: 'Angorá',
+    url: './cats/angora.html'
   },
   {
-    name: 'Sphynx'
+    name: 'Sphynx',
+    url: './cats/sphynx.html'
   },
   {
     name: 'Ragdoll'
