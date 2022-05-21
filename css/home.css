@@ -1,0 +1,88 @@
+:root {
+  --image-padding: 25px;
+}
+
+* {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+body::before {
+  z-index: -1;
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/cat-gang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: brightness(50%);
+}
+
+#container {
+  background: rgb(218, 218, 218);
+  width: 80vw;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  filter: sepia(70%);
+}
+
+.polaroid {
+  padding: var(--image-padding) var(--image-padding) 50px var(--image-padding);
+  background: rgb(240, 240, 240);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.polaroidText {
+  font-size: 1.2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+fieldset {
+  border: 2px dashed rgb(85, 138, 73);;
+  border-radius: 10px;
+}
+
+a {
+  color: rgb(85, 138, 73);
+}
+
+a:hover {
+  color: rgb(218, 218, 218);
+  background: rgb(85, 138, 73);
+}
+
+legend {
+  font-size: 1.2em;
+}
