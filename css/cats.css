@@ -80,6 +80,20 @@ a:hover {
   border-radius: 5px;
 }
 
+.polaroid:nth-child(odd):hover, .polaroid:nth-child(even):hover {
+  transform: rotate(0);
+}
+
+.polaroid:nth-child(odd) {
+  transform: rotate(2deg);
+  transition: .3s;
+}
+
+.polaroid:nth-child(even) {
+  transform: rotate(-3deg);
+  transition: .3s;
+}
+
 .polaroidImage {
   width: 100%;
   background: rgb(143, 143, 143);

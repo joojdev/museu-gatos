@@ -47,6 +47,20 @@ body::before {
   border-radius: 5px;
 }
 
+.polaroid:nth-child(odd):hover, .polaroid.polaroid:nth-child(even):hover {
+  transform: rotate(0deg);
+}
+
+.polaroid:nth-child(odd) {
+  transform: rotate(2deg);
+  transition: .3s;
+}
+
+.polaroid:nth-child(even) {
+  transform: rotate(-3deg);
+  transition: .3s;
+}
+
 .polaroidText {
   font-size: 1.2em;
   font-family: 'Indie Flower', cursive;
