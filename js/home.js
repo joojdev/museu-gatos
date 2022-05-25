@@ -22,19 +22,24 @@ const catList = [
     url: './cats/sphynx.html'
   },
   {
-    name: 'Ragdoll'
+    name: 'Ragdoll',
+    url: './cats/ragdoll.html'
   },
   {
-    name: 'Ashera'
+    name: 'Ashera',
+    url: './cats/ashera.html'
   },
   {
-    name: 'American Shorthair'
+    name: 'American Shorthair',
+    url: './cats/american-shorthair.html'
   },
   {
-    name: 'Exótico'
+    name: 'Exótico',
+    url: './cats/exotico.html'
   },
   {
-    name: 'SRD'
+    name: 'SRD',
+    url: './cats/sem-raca-definida.html'
   }
 ]
 
